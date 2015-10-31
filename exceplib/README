@@ -1,0 +1,12 @@
+-----------------------------------------------------------
+------------------README: exceplib-------------------------
+-----------------------------------------------------------
+
+exceplib (exception library) is a static library used in many programs.
+It simply implements multiple exceptions for driver files of
+other programs.  These driver files only need to include the library,
+link it (via the g++ Makefile), and developers can use this code
+without rewriting it.
+  
+EXECUTABLE_NAME: n/a
+

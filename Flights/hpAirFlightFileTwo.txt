@@ -1,0 +1,3 @@
+Chicago, San Diego 703 325
+Chicago, Albuquerque 111 250
+Albuquerque, Chicago 178 250

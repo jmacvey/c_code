@@ -1,0 +1,22 @@
+-----------------------------------------------------------
+------------------README: QueueADT-------------------------
+-----------------------------------------------------------
+
+This directory holds the files for two implementations of the 
+Queue data structure.  In particular, implementation is provided
+for circular array queues as well as linked queues.
+
+The QueueInterface file is that found in F. Cerrano's Walls
+and Mirrors, 6e.  The LinkedQueue files are a blend of both Cerrano and
+my own code.  The CircularArrayQueue is the more interesting of the two,
+and all of that code is my own implementation.
+
+
+EXECUTABLE_NAME: QueueTester
+
+Potential reviewers of code should look to the source code and
+be able to identify uses of procedural abstraction, recursive
+problem solving, user input handling, class relationships,
+static variable initialization,  etc. This program was intended
+as a learning exercise, and therefore should NOT be used for
+industrial practices which may lead to unhandled exceptions. 

@@ -1,0 +1,23 @@
+-----------------------------------------------------------
+------------------README: ReceiptBag-----------------------
+-----------------------------------------------------------
+
+The ReceiptBag program utilizes a simple Bag data structure
+to implement a receipt system.  The system is represented
+using parallel arrays, wherein one array stores boolean
+values corresponding to validated receipts for items in the other
+array.  These items can thus be cross-referenced by index, which
+act as the item's unique integer receipt.  Items can be tracked,
+validated, and stored in the data structure using this method.
+
+Note: The BagInterface header file is provided by F. Cerrano 
+in Walls and Mirrors, 6e.  
+
+EXECUTABLE_NAME: ReceiptBag
+
+Potential reviewers of code should look to the source code and
+be able to identify uses of procedural abstraction, recursive
+problem solving, user input handling, class relationships,
+static variable initialization,  etc. This program was intended
+as a learning exercise, and therefore should NOT be used for
+industrial practices which may lead to unhandled exceptions. 

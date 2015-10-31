@@ -1,0 +1,19 @@
+-----------------------------------------------------------
+------------------README: Sorts----------------------------
+-----------------------------------------------------------
+
+This directory holds a header file containing inline implementations of
+various sorting algorithms.  Everything from BubbleSort to QuickSort is
+included here, and Big Theta algorithm analysis is applied to all (see
+the files).  These algorithms are common to most programmers, so I can't
+take credit for their invention.  I did, however, write them myself after
+understanding how they operate.
+
+EXECUTABLE_NAME: SortTester
+
+Potential reviewers of code should look to the source code and
+be able to identify uses of procedural abstraction, recursive
+problem solving, user input handling, class relationships,
+static variable initialization,  etc. This program was intended
+as a learning exercise, and therefore should NOT be used for
+industrial practices which may lead to unhandled exceptions. 

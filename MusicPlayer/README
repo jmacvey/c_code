@@ -1,0 +1,19 @@
+-----------------------------------------------------------
+------------------README: MusicPlayer----------------------
+-----------------------------------------------------------
+
+The MusicPlayer program provides the user a simplified 
+database for storing compact disc information, including
+track names, artists, disc names, play times, etc. Most of the
+data is represented with Linked Sorted Lists.  All input is
+thoroughly verified.  Memory is managed intimately, as the 
+program deals primarily with raw pointers.   
+
+EXECUTABLE_NAME: MusicX
+
+Potential reviewers of code should look to the source code and
+be able to identify uses of procedural abstraction, recursive
+problem solving, user input handling, class relationships,
+static variable initialization,  etc. This program was intended
+as a learning exercise, and therefore should NOT be used for
+industrial practices which may lead to unhandled exceptions. 

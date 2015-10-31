@@ -1,0 +1,18 @@
+-----------------------------------------------------------
+------------------README: LISTADT--------------------------
+-----------------------------------------------------------
+
+The List ADT represents my version the List data structure.
+Both the array and the linked-node list are represented here.
+This is where I first began implementing "The Big 3"-- copy constructor,
+destructor, and copy assignment operator, on a regular basis. 
+Copy elision is used effectively here, as are iterators.  
+
+The ListInterface file is that found in F. Cerrano's Walls an Mirrors, 6e.
+Other files are a mix of both Cerrano and my own implementation details.  
+ 
+Potential reviewers of code should look to the source code and
+be able to identify uses of procedural abstraction, copy elision,
+memory management, etc. This program was intended as a learning
+exercise, and therefore should NOT be used for industrial practices
+which may lead to unhandled exceptions. 

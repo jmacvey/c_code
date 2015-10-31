@@ -1,0 +1,31 @@
+-----------------------------------------------------------
+------------------README: FLIGHTS : HPAir------------------
+-----------------------------------------------------------
+
+The flight program illustrates the use of adjacency lists
+in graphs by taking flight information provided by an input
+file of the style found in City, Flight, and Flight request
+files. The program takes a flight path and  determines if there
+is a flight path between the two cities. The flight files associated 
+with these airlines should be represented by sparse graphs (E << V^2), 
+where E is the edges in the graph and V are the vertices.  
+
+To improve performance,the code employs an array of "next-to" 
+pointers so we need not iterate through adjacency lists more than once. 
+Should the flight path be a dense graph, an adjacency matrix 
+would be preferable.
+
+Two classes, GetData and FlightMap, are used in this implementation.
+GetData handles the construction and streaming of flight, request, and
+city data.  FlightMap represents the data in an adjacency list and can
+check itself for a flightRequest existing.
+
+This problem was posed in F. Cerrano's Walls an Mirrors, 6e.  The
+test .txt files  here are those obtained directly from that book.
+All source code is my own.
+ 
+Potential reviewers of code should look to the source code and
+be able to identify uses of procedural abstraction, copy elision,
+memory management, etc. This program was intended as a learning
+exercise, and therefore should NOT be used for industrial practices
+which may lead to unhandled exceptions. 

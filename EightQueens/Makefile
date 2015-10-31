@@ -25,6 +25,5 @@ install:
 	mv eightQueens ~/cppPrograms
 
 #clean the directory
-.PHONY: clean
 clean:
 	rm *.o eightQueens
