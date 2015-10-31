@@ -1,0 +1,25 @@
+-----------------------------------------------------------
+------------------README: EightQueens-----------------------
+-----------------------------------------------------------
+
+The EightQueens problem is a classical one in computer science
+where the user must find positions on a chessboard for a
+queen in each row such that no one queen is attacking any 
+other queen.  I originally found this problem in Data Abstraction
+and Problem Solving:  Walls and Mirrors, 6e by F. Cerrano and
+T. Henry.  The book explains the problem and asks the reader to
+complete their solution.  Thus, part of this code is that given
+by the authors of that book.  The main thing to note is the use
+of recursion and backtracking to solve a complex problem.
+It was my first real stab at that way of thinking in code.  I had
+so much fun writing it that I'd figure I would put it up here 
+just so I'm never wondering "what ever happened to that program?..."    
+
+EXECUTABLE_NAME: eightQueens
+
+Potential reviewers of code should look to the source code and
+be able to identify uses of procedural abstraction, recursive
+problem solving, file stream handling, and class relationships,
+static variable initialization,  etc. This program was intended
+as a learning exercise, and therefore should NOT be used for
+industrial practices which may lead to unhandled exceptions. 

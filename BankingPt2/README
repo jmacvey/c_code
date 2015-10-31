@@ -1,0 +1,26 @@
+-----------------------------------------------------------
+------------------README: BankingPt2-----------------------
+-----------------------------------------------------------
+
+The BankingPt1 program is a bank teller simulation program
+that uses priority queues to determine the average waiting
+time a customer would experience in a real-world banking
+environment.  Real data is provided in an input file of the
+same style as BankTest1.txt (included in the main file dir-
+ectory).  The program uses three classes:  Simulation, Event-
+Builder, and Statistics.  The EventBuilder class reads and
+stores data from an input file to construct various customer
+in/out events.  The Simulation class simulates the events,
+and the Statistics class stores statistics regarding those
+events (e.g. average waiting time).  The main driver prompts
+the user for an input file, and the program proceeds accordingly.
+This program uses 3 tellers, and is therefore a modified version
+of BankingPt1 to reflect increased complexity. 
+
+EXECUTABLE_NAME: BankSim2
+
+Potential reviewers of code should look to the source code and
+be able to identify uses of procedural abstraction, copy elision,
+memory management, etc. This program was intended as a learning
+exercise, and therefore should NOT be used for industrial practices
+which may lead to unhandled exceptions. 

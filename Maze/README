@@ -1,0 +1,25 @@
+-----------------------------------------------------------
+------------------README: MAZE-----------------------------
+-----------------------------------------------------------
+
+What does every novice programmer who is interested in games
+write?  A 2D maze? What does every weird kid who likes Math and
+computation and games write? A self-solving maze.  This program
+is another use of recursive backtracking to solve a 2-D maze
+with a given set of information. That information is provided
+in a file, the program reads that file, and then executes
+recursion techniques.  This was one of the programming problems
+found in Cerrano's Walls and Mirrors, 6e (no source code was
+provided).  This was the closest I got to "Game Design" in a
+long time.  It was a huge boost to my confidence as a programmer,
+and so I again must share it with the world.  Behold, everyone,
+a maze represented by ASCII characters!  Voila!
+   
+EXECUTABLE_NAME: Maze
+
+Potential reviewers of code should look to the source code and
+be able to identify uses of procedural abstraction, recursive
+problem solving, file stream handling, and class relationships,
+static variable initialization,  etc. This program was intended
+as a learning exercise, and therefore should NOT be used for
+industrial practices which may lead to unhandled exceptions. 
