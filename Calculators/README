@@ -1,0 +1,26 @@
+-----------------------------------------------------------
+------------------README: Calculators----------------------
+-----------------------------------------------------------
+
+Ahh, the ubiquitous Calculator program.  Every novice programmer
+builds a primitive calculator, amiright?  This program uses
+a few clases of my own along with basic Stack algorithms to 
+produce both an Infix and PostFix calculator.  The Postfix handles
+multi-digits and the 4 basic mathematical operators.  The infix
+handles single digits and those same operators.  Users choose to
+enter or not enter.  Beware:  The code isn't exception safe, and I
+don't check for valid input.  This means you'll get a nasty seg fault
+on the output if you try to enter a bad Postfix expression in postfix mode,
+or a bad infix expression in infix mode.  A fun game I like to play
+is to input as many such expressions as possible without getting a seg
+fault.  My current record is 42, and I'm completely kidding.
+
+Well, enjoy!
+
+EXECUTABLE_NAME: CalcTester 
+
+Potential reviewers of code should look to the source code and
+be able to identify uses of procedural abstraction, copy elision,
+memory management, etc. This program was intended as a learning
+exercise, and therefore should NOT be used for industrial practices
+which may lead to unhandled exceptions. 

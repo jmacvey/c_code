@@ -1,0 +1,28 @@
+-----------------------------------------------------------
+------------------README: QueueADT-------------------------
+-----------------------------------------------------------
+
+This directory holds the files for implementations of the
+LinkedTree and the BinarySearchTree. This is really the
+grand-daddy of recursive data structures, and you'll find
+hefty employment of recursive functions for copying,
+adding, removing... well, pretty much doing anything, to this
+BST.  Much time spent drawing diagrams for this one.  The LinkedTree
+is much different than the BST insofar that the nodes are randomly
+inserted.  This makes adding things easy, but doing anything
+else hard.  I took the liberty to add some functions some
+might find interesting (see if the sum of integers along
+a LinkedTree Path is a certain number, finding max value in
+a random tree, testing to see whether a tree is a BST, etc.). 
+All good stuff.  All source is my own, except for the Interface
+file (which again I credit to F. Cerrano).  
+
+
+EXECUTABLE_NAME: TreeTester
+
+Potential reviewers of code should look to the source code and
+be able to identify uses of procedural abstraction, recursive
+problem solving, user input handling, class relationships,
+static variable initialization,  etc. This program was intended
+as a learning exercise, and therefore should NOT be used for
+industrial practices which may lead to unhandled exceptions. 
