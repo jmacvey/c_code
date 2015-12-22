@@ -4,7 +4,7 @@
 
 Ahh, the ubiquitous Calculator program.  Every novice programmer
 builds a primitive calculator, amiright?  This program uses
-a few clases of my own along with basic Stack algorithms to 
+a few classes of my own along with basic Stack algorithms to 
 produce both an Infix and PostFix calculator.  The Postfix handles
 multi-digits and the 4 basic mathematical operators.  The infix
 handles single digits and those same operators.  Users choose to
